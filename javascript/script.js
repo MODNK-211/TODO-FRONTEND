@@ -3,7 +3,7 @@ const addItemButton = document.getElementById("addItem");
 const itemList = document.getElementById("itemList");
 
 const API_URL = "https://todo-backend-x0i9.onrender.com/items";
-
+// gggg
 function renderItem(item) {
     const newItem = document.createElement("li");
     newItem.textContent = item.text;
